@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/color_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Shared information"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/medium_gap"
+        android:textSize="@dimen/medium_text"/>
+
+    <TextView
+        android:id="@+id/tv_shared_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/medium_text"
+        android:textColor="@color/color_black"/>
+
+</LinearLayout>
