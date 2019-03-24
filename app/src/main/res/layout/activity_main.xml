@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:hint="Password"
-        android:layout_margin="@dimen/medium_gap"/>
+        android:layout_margin="@dimen/medium_gap"
+        android:inputType="textPassword"/>
 
     <EditText
         android:id="@+id/et_email"
